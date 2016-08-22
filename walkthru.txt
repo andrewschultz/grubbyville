@@ -1,0 +1,69 @@
+WALKTHROUGH. First, you need a hall pass to get by Big Ed into the math/science wing. Myron has it. You can glad-hand him pretty much any which way.
+
+>1
+>w
+>w
+>se
+>se
+>se
+>talk to myron
+>1
+>4
+
+You can visit Dennis in the chess hovel whenever, but I'll got for move saving here. Now, there's a lot of weird information in math/science. 
+
+>nw
+>nw
+>nw
+>nw
+>n
+>x list
+
+It's Dennis's birthday! Go wish him one. Or, well, look for a present for him.
+
+>in
+>get book
+>out
+>s
+
+Why not stop in the computer lab? I bet you're in the mod for a computer game.
+
+>nw
+>x backpack
+>x computer
+>y
+
+There really is no difference.
+
+>1
+>1
+>1
+>1
+>x computer
+
+Play again, why not.
+
+>x computer
+
+And a third time.
+
+>x computer
+
+You didn't have to, but now you have impetus to examine the backpack.
+
+>x backpack
+
+Okay, you and Dennis have an enemy in common.
+
+>se
+>se
+>s
+>in
+>x dennis
+>give book to dennis
+>talk to dennis
+>1
+>1
+>talk to dennis
+
+>y

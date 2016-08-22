@@ -1,0 +1,10 @@
+out=grubbyville-invisiclues.htm
+!Grubbyville HTML Clues
+->c:/games/inform/grubbyville Materials/Release
+>Bedroom
+?Do the conversation choices make any difference?
+Not really. You just get more detail if you lawnmower them. You can tune Pop out if you want.
+Hopefully the changing top option indicates you can be impatient.
+>Entry Hall
+?Can I run away?
+Yes. You need to try to go east twice. That gives an unsuccessful ending.
