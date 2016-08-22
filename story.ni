@@ -14,9 +14,11 @@ release along with a file of "basic walkthrough" called "intro-thru.txt".
 
 Book includes
 
-include reactable quips by michael martin.
+include reactable quips by Michael Martin.
 
-include quip-based conversation by michael martin.
+include quip-based conversation by Michael Martin.
+
+include basic screen effects by Emily Short.
 
 section i6 stuff
 
@@ -1317,7 +1319,7 @@ understand the command "credit" as something new.
 understand "credit" as creditsing.
 
 carry out creditsing:
-	say "Thanks to my testers, who found bugs and also inspired me to expound on things I forgot to.[paragraph break]Keetie de Kater, Jason Lautzenheiser and Vince Laviano, in last-name alphabetical order.[paragraph break]Thanks to Jacqueline Lott Ashwell for holding IntroComp, which was a great venue for helping me push forward this idea I liked but didn't have a firm grasp on, yet.[paragraph break]Thanks to the usual suspects for making cool extensions, and of course, to those who created Inform itself.";
+	say "Thanks to my testers, who found bugs and also inspired me to expound on things I forgot to.[paragraph break]Keetie de Kater, Jason Lautzenheiser and Vince Laviano, in last-name alphabetical order.[paragraph break]Thanks to Jacqueline Lott Ashwell for holding IntroComp, which was a great venue for helping me push forward this idea I liked but didn't have a firm grasp on, yet.[paragraph break]Thanks to verityvirtue for pointing out a bug during the comp.[paragraph break]Thanks to the usual suspects for making cool extensions, and of course, to those who created Inform itself.";
 	the rule succeeds;
 
 chapter maping
@@ -1328,10 +1330,9 @@ understand the command "map" as something new.
 
 understand "map" as maping.
 
-to say nosp:
-	say "";
-
 carry out maping:
+	if screen width < 55:
+		say "The game screen is currently too narrow to show the whole map comfortably. It is at [screen width] and should be at least 55." instead;
 	say "Grubbyville High School is laid out in an X, with the main exit going east from the center. Northwest is Math/Science, northeast is Art, southeast is Humanities, and southwest is Life Skills.[paragraph break]";
 	say "[fixed letter spacing]                                NOT IN INTRO[line break]Math/Science Wing---\        /---Fine Arts Wing[line break]                     \      /[line break]                      X-Hall-----Entry[line break]                     /      \[line break]Life Studies Wing---/        \---Humanities Wing[line break]   NOT IN INTRO[variable letter spacing]";
 	the rule succeeds;
